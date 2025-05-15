@@ -41,28 +41,28 @@ You can download the dataset from https://www.kaggle.com/datasets/mloey1/ahcd1](
 
 
 
-⚙️ Methodology
+## ⚙️ Methodology
+
 Preprocessing: Load and normalize the dataset.
 
 ACO Initialization:
 
-Generate solutions (weights) using artificial ants.
+- Generate solutions (weights) using artificial ants.
 
-Update pheromones based on fitness (error).
+- Update pheromones based on fitness (error).
 
 ANN Training:
+- Use ACO-optimized weights to initialize the ANN.
 
-Use ACO-optimized weights to initialize the ANN.
-
-Train using traditional backpropagation.
+- Train using traditional backpropagation.
 
 Evaluation:
 
-Accuracy
+- Accuracy
 
-Loss curves
+- Loss curves
 
-Confusion matrix
+- Confusion matrix
 
 
 📈 Results
