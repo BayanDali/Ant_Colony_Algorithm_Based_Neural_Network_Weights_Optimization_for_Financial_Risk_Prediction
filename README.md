@@ -36,27 +36,29 @@ To optimize the performance of a neural network model in financial risk predicti
 
 
 
-📊 Dataset
+## 📊 Dataset
+
 You can download the dataset from https://www.kaggle.com/datasets/mloey1/ahcd1](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset/data.
 
 
 
 ## ⚙️ Methodology
 
-Preprocessing: Load and normalize the dataset.
+# Preprocessing: Load and normalize the dataset.
 
-ACO Initialization:
+# ACO Initialization:
 
 - Generate solutions (weights) using artificial ants.
 
 - Update pheromones based on fitness (error).
 
-ANN Training:
+# ANN Training:
+
 - Use ACO-optimized weights to initialize the ANN.
 
 - Train using traditional backpropagation.
 
-Evaluation:
+# Evaluation:
 
 - Accuracy
 
