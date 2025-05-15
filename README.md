@@ -4,13 +4,14 @@ This project implements a hybrid approach that combines the Ant Colony Optimizat
 
 Libraries Used:
 
-numpy
+- numpy
 
-pandas
+- pandas
 
-matplotlib
+- matplotlib
 
-scikit-learn
+- scikit-learn
+
 
 ## 📈 Objective
 
@@ -44,7 +45,9 @@ You can download the dataset from https://www.kaggle.com/datasets/mloey1/ahcd1](
 
 ## ⚙️ Methodology
 
-# Preprocessing: Load and normalize the dataset.
+# Preprocessing: 
+
+- Load and normalize the dataset.
 
 # ACO Initialization:
 
@@ -67,7 +70,7 @@ You can download the dataset from https://www.kaggle.com/datasets/mloey1/ahcd1](
 - Confusion matrix
 
 
-📈 Results
+## 📈 Results
 
 The ACO-initialized ANN model shows improved convergence speed and better generalization on the test set compared to randomly initialized models.
 
