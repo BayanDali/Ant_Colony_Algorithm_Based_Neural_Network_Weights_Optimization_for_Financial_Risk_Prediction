@@ -34,8 +34,12 @@ To optimize the performance of a neural network model in financial risk predicti
 
 ┗ 📜README.md
 
+
+
 📊 Dataset
-You can download the dataset from [Kaggle]([https://www.kaggle.com/datasets/mloey1/ahcd1](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset/data)).
+You can download the dataset from [Kaggle](https://www.kaggle.com/datasets/mloey1/ahcd1](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset/data).
+
+
 
 ⚙️ Methodology
 Preprocessing: Load and normalize the dataset.
